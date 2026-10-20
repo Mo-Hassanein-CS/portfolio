@@ -146,7 +146,7 @@ section h2 span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 13px 23px;
+    padding: 10px 20px;
     border-radius: 6px;
     font-size: 14px;
     font-weight: 600;
@@ -366,18 +366,20 @@ section h2 {
 .contact-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    gap: 15px;
 }
 
 .contact-item {
     background: var(--card);
     border: 1px solid var(--border);
-    padding: 25px;
+    padding: 15px;
     border-radius: 8px;
+    margin-bottom: 12px;
+
 }
 
 .contact-item h3 {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-muted);
     font-weight: 500;
     margin-bottom: 8px;
